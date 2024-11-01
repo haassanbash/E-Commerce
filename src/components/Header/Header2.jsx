@@ -126,7 +126,7 @@ const Header2 = () => {
                                     <ListItemText
                                     sx={{width:"95px",alignItems:'center',textAlign:'center',textWrap:'nowrap',
                                         "&:hover":{cursor:'pointer'}, 
-                                        ".MuiTypography-root" :{fontsize:"10px",color:'black',fontWeight:'bold'}}}
+                                        ".MuiTypography-root" :{fontsize:"10px",color:theme.palette.text.primary,fontWeight:'bold'}}}
                                         secondary={options[selectedIndex]}
                                     />
                                 <ExpandMore sx={{fontSize:'16px'}} />
